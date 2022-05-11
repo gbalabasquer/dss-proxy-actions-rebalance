@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-pragma solidity ^0.8.6;
+pragma solidity ^0.6.12;
 
 import "ds-test/test.sol";
 
@@ -9,7 +9,7 @@ contract DssProxyActionsRebalanceTest is DSTest {
     DssProxyActionsRebalance rebalance;
 
     function setUp() public {
-        rebalance = new DssProxyActionsRebalance();
+        // rebalance = new DssProxyActionsRebalance();
     }
 
     function testFail_basic_sanity() public {
